@@ -1,0 +1,145 @@
+
+  <mat-toolbar color="primary">
+    <button mat-icon-button class="example-icon" aria-label="Example icon-button with menu icon" (click)="opened=!opened">
+      <mat-icon>menu</mat-icon>
+    </button>
+    <span>Crypto-currency</span>
+    <span class="example-spacer"></span>
+    <button mat-icon-button class="example-icon favorite-icon" aria-label="Example icon-button with heart icon">
+      <mat-icon>favorite</mat-icon>
+    </button>
+    <button mat-icon-button class="example-icon" aria-label="Example icon-button with share icon">
+      <mat-icon>share</mat-icon>
+    </button>
+  </mat-toolbar>
+
+<mat-sidenav-container>
+  <mat-sidenav mode="side" [(opened)]="opened">
+    <ul class="items">
+      <li>
+        <mat-icon>home</mat-icon>
+        <span>Home</span>
+      </li>
+      <li>
+        <mat-icon>person</mat-icon>
+          <span>About-Us</span>
+      </li>
+      <li>
+        <mat-icon>info</mat-icon>
+          <span>Contact</span>
+      </li>
+    </ul>
+
+  </mat-sidenav>
+  <mat-sidenav-content>
+
+
+
+    <div class="carddiv">
+      <mat-card class="example-card">
+        <mat-card-header>
+          <div mat-card-avatar class="example-header-image"></div>
+          <mat-card-title>Bitcoin</mat-card-title>
+          <mat-card-subtitle>Crypto-currency</mat-card-subtitle>
+        </mat-card-header>
+        <img mat-card-image src="../assets/bitcoin.jpg" alt="Photo of a Shiba Inu">
+        <mat-card-content>
+          <p>
+            The live Bitcoin price today is $38,877.39 USD with a 24-hour trading volume of $24,085,957,818 USD. We update our BTC to USD price in real-time. Bitcoin is up 3.32% in the last 24 hours. The current CoinMarketCap ranking is #1, with a live market cap of $737,356,344,686 USD. It has a circulating supply of 18,966,200 BTC coins and a max. supply of 21,000,000 BTC coins.
+          </p>
+        </mat-card-content>
+        <mat-card-actions>
+          <button mat-raised-button color="primary">LIKE</button>
+          <button mat-raised-button color="accent">SHARE</button>
+        </mat-card-actions>
+      </mat-card>
+   <mat-card class="example-card">
+        <mat-card-header>
+          <div mat-card-avatar class="example-header-image"></div>
+          <mat-card-title>Etherium</mat-card-title>
+          <mat-card-subtitle>Crypto-currency</mat-card-subtitle>
+        </mat-card-header>
+        <img mat-card-image src="../assets/etherium.jpg" alt="Photo of a Shiba Inu">
+        <mat-card-content>
+          <p>
+            The live Ethereum price today is $2,715.28 USD with a 24-hour trading volume of $14,626,045,137 USD. We update our ETH to USD price in real-time. Ethereum is up 4.82% in the last 24 hours. The current CoinMarketCap ranking is #2, with a live market cap of $325,011,684,094 USD. It has a circulating supply of 119,697,426 ETH coins and the max. supply is not available.
+          </p>
+        </mat-card-content>
+        <mat-card-actions>
+          <button mat-raised-button color="primary">LIKE</button>
+          <button mat-raised-button color="accent">SHARE</button>
+        </mat-card-actions>
+      </mat-card>
+      <mat-card class="example-card">
+        <mat-card-header>
+          <div mat-card-avatar class="example-header-image"></div>
+          <mat-card-title>Tether</mat-card-title>
+          <mat-card-subtitle>Crypto-currency</mat-card-subtitle>
+        </mat-card-header>
+        <img mat-card-image src="../assets/tether.jpg" alt="Photo of a Shiba Inu">
+        <mat-card-content>
+          <p>
+            The live Tether price today is $1.00 USD with a 24-hour trading volume of $56,597,326,611 USD. We update our USDT to USD price in real-time. Tether is up 0.00% in the last 24 hours. The current CoinMarketCap ranking is #3, with a live market cap of $79,455,367,855 USD. It has a circulating supply of 79,415,206,825 USDT coins and the max. supply is not available
+          </p>
+        </mat-card-content>
+        <mat-card-actions>
+          <button mat-raised-button color="primary">LIKE</button>
+          <button mat-raised-button color="accent">SHARE</button>
+        </mat-card-actions>
+      </mat-card> <mat-card class="example-card">
+        <mat-card-header>
+          <div mat-card-avatar class="example-header-image"></div>
+          <mat-card-title>Gari</mat-card-title>
+          <mat-card-subtitle>Crypto-currency</mat-card-subtitle>
+        </mat-card-header>
+        <img mat-card-image src="../assets/gari.jpg" alt="Photo of a Shiba Inu">
+        <mat-card-content>
+          <p>
+            The live Gari Network price today is $0.799940 USD with a 24-hour trading volume of $27,496,115 USD. We update our GARI to USD price in real-time. Gari Network is down 7.76% in the last 24 hours. The current CoinMarketCap ranking is #2846, with a live market cap of not available. The circulating supply is not available and a max. supply of 1,000,000,000 GARI coins.
+          </p>
+        </mat-card-content>
+        <mat-card-actions>
+          <button mat-raised-button color="primary">LIKE</button>
+          <button mat-raised-button color="accent">SHARE</button>
+        </mat-card-actions>
+      </mat-card> <mat-card class="example-card">
+        <mat-card-header>
+          <div mat-card-avatar class="example-header-image"></div>
+          <mat-card-title>Shiba Inu</mat-card-title>
+          <mat-card-subtitle>Crypto-currency</mat-card-subtitle>
+        </mat-card-header>
+        <img mat-card-image src="../assets/shibainu.png" alt="Photo of a Shiba Inu">
+        <mat-card-content>
+          <p>
+            The live Shiba Inu price today is $0.000027 USD with a 24-hour trading volume of $1,429,606,107 USD. We update our SHIB to USD price in real-time. Shiba Inu is up 8.21% in the last 24 hours. The current CoinMarketCap ranking is #14, with a live market cap of $14,621,611,687 USD. It has a circulating supply of 549,063,278,876,302 SHIB coins and the max. supply is not available.
+          </p>
+        </mat-card-content>
+        <mat-card-actions>
+          <button mat-raised-button color="primary">LIKE</button>
+          <button mat-raised-button color="accent">SHARE</button>
+        </mat-card-actions>
+      </mat-card> <mat-card class="example-card">
+        <mat-card-header>
+          <div mat-card-avatar class="example-header-image"></div>
+          <mat-card-title>Ripple</mat-card-title>
+          <mat-card-subtitle>Crypto-currency</mat-card-subtitle>
+        </mat-card-header>
+        <img mat-card-image src="../assets/ripple.png" alt="Photo of a Shiba Inu">
+        <mat-card-content>
+          <p>
+            The live XRP price today is $0.733219 USD with a 24-hour trading volume of $2,894,325,737 USD. We update our XRP to USD price in real-time. XRP is up 4.18% in the last 24 hours. The current CoinMarketCap ranking is #6, with a live market cap of $35,157,339,314 USD. It has a circulating supply of 47,949,281,138 XRP coins and a max. supply of 100,000,000,000 XRP coins.
+          </p>
+        </mat-card-content>
+        <mat-card-actions>
+          <button mat-raised-button color="primary">LIKE</button>
+          <button mat-raised-button color="accent">SHARE</button>
+        </mat-card-actions>
+      </mat-card>
+    </div>
+
+    
+
+
+
+  </mat-sidenav-content>
+</mat-sidenav-container>

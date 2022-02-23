@@ -1,0 +1,43 @@
+.example-spacer {
+    flex: 1 1 auto;
+  }
+  mat-sidenav-container{
+      height:90%;
+  }
+  mat-sidenav, matsidenav-content{
+      padding: 16px;
+  }
+  mat-sidenav{
+    background-color: rgb(110, 130, 241);
+    width:200px;
+  }
+  .example-card {
+    max-width: 400px;
+  }
+  
+  .example-header-image {
+    background-image: url('../assets/iconimage.jpg');
+    background-size: cover;
+  }
+  .carddiv{
+      display: grid;
+      /* display: flex; */
+      grid-template-columns: auto auto auto;
+      grid-gap: 50px 10px;
+      margin: 7rem;
+  }
+  .items{
+      
+      font-size: 20px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+  }
+  .items li{
+    list-style: none;
+    margin-top: 10px;
+    color:white;
+  }
+  img{
+      height:40vh;
+  }
